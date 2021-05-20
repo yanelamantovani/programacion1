@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62a7e9b2-e16f-45cb-817a-69f04339dc1d" name="Default Changelist" comment="Ensayo de parcial." />
+    <list default="true" id="62a7e9b2-e16f-45cb-817a-69f04339dc1d" name="Default Changelist" comment="Ensayo de parcial.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,39 +49,13 @@
       <recent name="Clase7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tp7_Ej11">
-    <configuration name="Carga_Secuencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase7.Carga_Secuencias" />
-      <module name="programacion1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clase7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Tp7_Ej13">
     <configuration name="Clase7_Ejemplo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase7.Clase7_Ejemplo8" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Clase7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursosJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RecursosJava.RecursosJava" />
-      <module name="programacion1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RecursosJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +89,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tp7_Ej12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej12" />
+      <module name="programacion1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tp7_Ej13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej13" />
+      <module name="programacion1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tp7_Ej13" />
+        <item itemvalue="Application.Tp7_Ej12" />
         <item itemvalue="Application.Tp7_Ej11" />
         <item itemvalue="Application.Clase7_Ejemplo8" />
         <item itemvalue="Application.Tp7_Ej10" />
-        <item itemvalue="Application.RecursosJava" />
-        <item itemvalue="Application.Carga_Secuencias" />
       </list>
     </recent_temporary>
   </component>
