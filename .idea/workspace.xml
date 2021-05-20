@@ -49,22 +49,9 @@
       <recent name="Clase7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tp7_Ej13">
+  <component name="RunManager" selected="Application.Tp7_Ej14">
     <configuration name="Clase7_Ejemplo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase7.Clase7_Ejemplo8" />
-      <module name="programacion1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clase7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tp7_Ej10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej10" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
@@ -115,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tp7_Ej14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej14" />
+      <module name="programacion1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tp7_Ej14" />
         <item itemvalue="Application.Tp7_Ej13" />
         <item itemvalue="Application.Tp7_Ej12" />
         <item itemvalue="Application.Tp7_Ej11" />
         <item itemvalue="Application.Clase7_Ejemplo8" />
-        <item itemvalue="Application.Tp7_Ej10" />
       </list>
     </recent_temporary>
   </component>
