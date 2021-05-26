@@ -1,7 +1,7 @@
 /*
 Hacer un programa que dado una matriz de enteros de tamano 4*5 que se encuentra precargada,
-encuentre la posicion fila,columna de un numero entero ingresado por el usuario. Si existe,
-muestre esa posicion por pantalla, o indique que no existe.
+solicite al usuario una posicion fila, columna, y realice un corrimiento a derecha. Ademas imprima
+la matriz antes y despues del corrimiento
 */
 
 package Clase8;
@@ -10,10 +10,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-public class Clase8_Ejemplo5 {
-    public static final int MAXFILAS = 4; // Dimensiones de la matriz
+public class Clase8_Ejemplo6 {
+    public static final int MAXFILAS = 4;
     public static final int MAXCOLUMNAS = 5;
-    public static final int MAXVALOR = 9; // Máximo del random
+    public static final int MAXVALOR = 9;
     public static final int MINVALOR = 1;
 
     public static void main(String[] args) {
@@ -22,9 +22,11 @@ public class Clase8_Ejemplo5 {
         try {
             cargarMatrizEnterosRandom(intMatriz);
             imprimirMatrizEnteros(intMatriz);
-            System.out.println("Ingrese un entero:");
-            int numero = Integer.valueOf(entrada.readLine());
-            buscarNumeroMatriz(intMatriz,numero);
+            System.out.println("Ingrese una fila:");
+            int filaUsuario = Integer.valueOf(entrada.readLine());
+            System.out.println("Ingrese una columna:");
+            int columnaUsuario = Integer.valueOf(entrada.readLine());
+            corrimientoDerecha(intMatriz,filaUsuario,columnaUsuario);
         } catch (Exception exc) {
             System.out.println(exc);
         }
@@ -48,19 +50,17 @@ public class Clase8_Ejemplo5 {
         }
     }
 
-    // Buscar e imprimir numeros en una matriz - LO HICE DIFERENTE A LAS SLIDES!
-    public static void buscarNumeroMatriz(int [][] intMatriz, int numero) {
-        boolean existe = false;
-        for (int fila = 0; fila < MAXFILAS; fila++) {
-            for (int columna = 0; columna < MAXCOLUMNAS; columna++) {
-                if (intMatriz[fila][columna] == numero) {
-                    System.out.println("El numero ingresado está en la fila " + fila + " y columna " + columna);
-                    existe = true;
-                }
+    //Buscar posición en matriz y hacer corrimiento a derecha
+    public static void corrimientoDerecha(int [][] intMatriz, int filaUsuario, int columnaUsuario) {
+        if ((filaUsuario >= 0) && (filaUsuario < MAXFILAS) && (columnaUsuario >= 0) && (columnaUsuario < MAXCOLUMNAS)) {
+            int i = MAXCOLUMNAS - 1;
+            while (i > columnaUsuario) {
+                intMatriz[filaUsuario][i] = intMatriz[filaUsuario][i - 1];
+                i--;
             }
-        }
-        if (existe == false) {
-            System.out.println("El numero ingresado no se encuentra en la matriz");
+            imprimirMatrizEnteros(intMatriz);
+        } else {
+            System.out.println("Los valores ingresados exceden las dimensiones de la matriz.");
         }
     }
 }

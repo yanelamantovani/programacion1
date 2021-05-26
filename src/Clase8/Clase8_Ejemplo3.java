@@ -10,9 +10,9 @@ package Clase8;
 import java.util.Random;
 
 public class Clase8_Ejemplo3 {
-    public static final int MAXFILAS = 4; // Dimensiones de la matriz
+    public static final int MAXFILAS = 4;
     public static final int MAXCOLUMNAS = 5;
-    public static final int MAXVALOR = 9; // Máximo del random
+    public static final int MAXVALOR = 9;
     public static final int MINVALOR = 1;
 
     public static void main(String[] args) {
@@ -22,7 +22,6 @@ public class Clase8_Ejemplo3 {
         imprimirPromediosFilas(intMatriz);
     }
 
-    // Cargar matriz de enteros aleatorios
     public static void cargarMatrizEnterosRandom(int [][] intMatriz) {
         Random r = new Random();
         for (int fila = 0; fila < MAXFILAS; fila++) {
@@ -32,7 +31,6 @@ public class Clase8_Ejemplo3 {
         }
     }
 
-    // Imprimir matriz de enteros
     public static void imprimirMatrizEnteros(int [][] intMatriz) {
         for (int fila = 0; fila < MAXFILAS; fila++) {
             for (int columna = 0; columna < MAXCOLUMNAS; columna++) {
