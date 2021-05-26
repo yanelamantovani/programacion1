@@ -12,8 +12,8 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class Tp8_Ej04 {
-    public static final int MAXFILAS = 4;
-    public static final int MAXCOLUMNAS = 5;
+    public static final int MAXFILAS = 5;
+    public static final int MAXCOLUMNAS = 10;
     public static final int MAXVALOR = 9;
     public static final int MINVALOR = 1;
 
