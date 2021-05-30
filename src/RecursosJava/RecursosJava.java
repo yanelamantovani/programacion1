@@ -377,4 +377,44 @@ public class RecursosJava {
         int finalPosition = startingPosition - 1;
         return finalPosition;
     }
+
+    // Ordenar matriz por columnas
+/*    public static void ordenarColumnasMatriz(int [][] intMatriz) {
+        int posMenor, aux;
+        for (int columna = 0; columna < MAXCOLUMNAS; columna++) {
+            for (int fila = 0; fila < MAXFILAS; fila++) {
+                posMenor = fila;
+                for (int i = fila + 1; i < MAXFILAS; i++) {
+                    if (intMatriz[i][columna] < intMatriz[posMenor][columna]) {
+                        posMenor = i;
+                    }
+                }
+                if (posMenor != fila) {
+                    aux = intMatriz[fila][columna];
+                    intMatriz[fila][columna] = intMatriz[posMenor][columna];
+                    intMatriz[posMenor][columna] = aux;
+                }
+            }
+        }
+    }*/
+
+    // Ordenar matriz por filas
+/*    public static void ordenarFilasMatriz(int[][] intMatriz) {
+        int posMenor, aux;
+        for (int fila = 0; fila < MAXFILAS; fila++) {
+            for (int columna = 0; columna < MAXCOLUMNAS; columna++) {
+                posMenor = columna;
+                for (int i = columna + 1; i < MAXCOLUMNAS; i++) {
+                    if (intMatriz[fila][i] < intMatriz[fila][posMenor]) {
+                        posMenor = i;
+                    }
+                }
+                if (posMenor != columna) {
+                    aux = intMatriz[fila][columna];
+                    intMatriz[fila][columna] = intMatriz[fila][posMenor];
+                    intMatriz[fila][posMenor] = aux;
+                }
+            }
+        }
+    }*/
 }
