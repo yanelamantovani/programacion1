@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="62a7e9b2-e16f-45cb-817a-69f04339dc1d" name="Default Changelist" comment="Ensayo de parcial.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej10.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <recent name="Clase7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tp8_Ej10">
+  <component name="RunManager" selected="Application.Clase8_Ejemplo9">
     <configuration name="Clase8_Ejemplo8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase8.Clase8_Ejemplo8" />
       <module name="programacion1" />
@@ -63,8 +64,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tp7_Ej15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej15" />
+    <configuration name="Clase8_Ejemplo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase8.Clase8_Ejemplo9" />
+      <module name="programacion1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tp7_Ej11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej11" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
@@ -76,25 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tp8_Ej08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase8.Tp8_Ej08" />
+    <configuration name="Tp7_Ej15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase7.Tp7_Ej15" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Clase8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tp8_Ej09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase8.Tp8_Ej09" />
-      <module name="programacion1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clase8.*" />
+          <option name="PATTERN" value="Clase7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Clase8_Ejemplo9" />
+        <item itemvalue="Application.Tp7_Ej11" />
         <item itemvalue="Application.Tp8_Ej10" />
         <item itemvalue="Application.Tp7_Ej15" />
         <item itemvalue="Application.Clase8_Ejemplo8" />
-        <item itemvalue="Application.Tp8_Ej09" />
-        <item itemvalue="Application.Tp8_Ej08" />
       </list>
     </recent_temporary>
   </component>
