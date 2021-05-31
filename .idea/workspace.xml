@@ -49,7 +49,7 @@
       <recent name="Clase7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tp8_Ej08">
+  <component name="RunManager" selected="Application.Tp8_Ej09">
     <configuration name="Clase8_Ejemplo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clase8.Clase8_Ejemplo7" />
       <module name="programacion1" />
@@ -69,19 +69,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Clase7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tp8_Ej06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clase8.Tp8_Ej06" />
-      <module name="programacion1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Clase8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,13 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tp8_Ej09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase8.Tp8_Ej09" />
+      <module name="programacion1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Clase8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tp8_Ej09" />
         <item itemvalue="Application.Tp8_Ej08" />
         <item itemvalue="Application.Tp8_Ej07" />
         <item itemvalue="Application.Clase8_Ejemplo7" />
         <item itemvalue="Application.Tp7_Ej06" />
-        <item itemvalue="Application.Tp8_Ej06" />
       </list>
     </recent_temporary>
   </component>
