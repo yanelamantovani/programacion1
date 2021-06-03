@@ -16,10 +16,12 @@ public class ArregloSecuenciasEnteros {
 
         cargarSecuenciasEnterosRandomArray(arr, max);
         imprimirArrayEnteros(arr, max);
+        // DESARROLLAR EJERCICIO SECUENCIAS
+        ejercicioSecuencias(arr, max);
 
     }
 
-    // Solicito al usuario que ingrese el tamanio del arreglo
+    // Solicita al usuario que ingrese el tamanio del arreglo
     public static int solicitarTamanioArreglo() {
         BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
         int max = 0;
@@ -32,7 +34,7 @@ public class ArregloSecuenciasEnteros {
         return max;
     }
 
-    // Cargo un array con secuencias de enteros random
+    // Carga un array con secuencias de enteros random
     public static void cargarSecuenciasEnterosRandomArray (int [] array, int max) {
         Random r = new Random();
         array[0] = 0;
@@ -44,13 +46,49 @@ public class ArregloSecuenciasEnteros {
                 array[i] = 0;
             }
         }
-        array [max - 2] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR); // Evito que el anteúltimo número sea un 0 y me de error al buscar la última secuencia
     }
 
-    // Imprimo array de enteros
+    // Imprime array de enteros
     public static void imprimirArrayEnteros(int [] array, int max) {
         for (int i = 0; i < max; i++) {
             System.out.print("[" + array[i] + "]");
         }
+        System.out.println("");
+    }
+
+    // DESARROLLAR EJERCICIO SECUENCIAS
+    private static void ejercicioSecuencias(int[] array, int max) {
+        int inicio = 0;
+        while (existeSecuencia(array, inicio, max)) {
+            inicio = buscarPosicionInicioSecuencia(array, inicio, max);
+            int fin = buscarPosicionFinSecuencia(array, inicio, max);
+            inicio = fin;
+        }
+    }
+
+    // Retorna true si existe una secuencia a partir de la posicion
+    public static boolean existeSecuencia(int[] array, int posicionInicio, int max) {
+        for (int i = posicionInicio; i < max; i++) {
+            if (array[i] != 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Busca posicion de inicio de una secuencia
+    public static int buscarPosicionInicioSecuencia(int[] array, int posicion, int max) {
+        while (array[posicion] == 0 && posicion < max - 1) {
+            posicion++;
+        }
+        return posicion;
+    }
+
+    // Busca posicion final de una secuencia
+    public static int buscarPosicionFinSecuencia(int[] array, int posicion, int max) {
+        while (array[posicion] != 0 && posicion < max - 1) {
+            posicion++;
+        }
+        return posicion;
     }
 }

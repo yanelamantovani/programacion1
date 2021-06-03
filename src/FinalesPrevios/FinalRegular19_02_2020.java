@@ -29,7 +29,6 @@ public class FinalRegular19_02_2020 {
 
         System.out.println("Array inicial:");
         cargarSecuenciasEnterosRandomArray(arr, max);
-        // int [] arr = {0, 1, 2, 0, 1, 2, 3, 0, 1, 2, 3, 4, 0, 1, 2, 3, 4, 5, 0, 0};
         imprimirArrayEnteros(arr, max);
 
         System.out.println("Array par:");
@@ -84,9 +83,9 @@ public class FinalRegular19_02_2020 {
     public static void extraerSecuenciasCantidadPar(int [] array, int [] par, int max) {
         int inicio = 0;
         int indicePares = 0;
-        while (existeSecuencia(array, inicio)) {
-            inicio = buscarPosicionInicioSecuencia(array, inicio);
-            int fin = buscarPosicionFinSecuencia(array, inicio);
+        while (existeSecuencia(array, inicio, max)) {
+            inicio = buscarPosicionInicioSecuencia(array, inicio, max);
+            int fin = buscarPosicionFinSecuencia(array, inicio, max);
             if (esPar(inicio, fin)) {
                 for (int i = inicio; i <= fin; i++) {
                     indicePares++;
@@ -103,8 +102,8 @@ public class FinalRegular19_02_2020 {
     }
 
     // Retorno true si existe una secuencia a partir de la posicion
-    public static boolean existeSecuencia(int[] array, int posicionInicio) {
-        for (int i = posicionInicio; i < array.length; i++) {
+    public static boolean existeSecuencia(int[] array, int posicionInicio, int max) {
+        for (int i = posicionInicio; i < max; i++) {
             if (array[i] != 0) {
                 return true;
             }
@@ -113,16 +112,16 @@ public class FinalRegular19_02_2020 {
     }
 
     // Busco posicion de inicio de una secuencia
-    public static int buscarPosicionInicioSecuencia(int[] array, int posicion) {
-        while (array[posicion] == 0 && posicion < array.length - 1) {
+    public static int buscarPosicionInicioSecuencia(int[] array, int posicion, int max) {
+        while (array[posicion] == 0 && posicion < max - 1) {
             posicion++;
         }
         return posicion;
     }
 
     // Busco posicion final de una secuencia
-    public static int buscarPosicionFinSecuencia(int[] array, int posicion) {
-        while (array[posicion] != 0 && posicion < array.length - 1) {
+    public static int buscarPosicionFinSecuencia(int[] array, int posicion, int max) {
+        while (array[posicion] != 0 && posicion < max - 1) {
             posicion++;
         }
         return posicion;

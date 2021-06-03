@@ -16,7 +16,8 @@ public class ArregloSecuenciasCaracteres {
 
         cargarSecuenciasCaracteresRandomArray(arr, max);
         imprimirArrayCaracteres(arr, max);
-
+        // DESARROLLAR EJERCICIO SECUENCIAS
+        ejercicioSecuencias(arr, max);
     }
 
     // Solicito al usuario que ingrese el tamanio del arreglo
@@ -44,7 +45,6 @@ public class ArregloSecuenciasCaracteres {
                 array[i] = ' ';
             }
         }
-        array [max - 2] = (char) (r.nextInt(26) + 'a'); // Evito que el anteúltimo número sea un espacio y me de error al buscar la última secuencia
     }
 
     // Imprimo array de caracteres
@@ -52,5 +52,42 @@ public class ArregloSecuenciasCaracteres {
         for (int i = 0; i < max; i++) {
             System.out.print("[" + array[i] + "]");
         }
+        System.out.println("");
+    }
+
+    // DESARROLLAR EJERCICIO SECUENCIAS
+    private static void ejercicioSecuencias(char[] array, int max) {
+        int inicio = 0;
+        while (existeSecuencia(array, inicio, max)) {
+            inicio = buscarPosicionInicioSecuencia(array, inicio, max);
+            int fin = buscarPosicionFinSecuencia(array, inicio, max);
+            inicio = fin;
+        }
+    }
+
+    // Retorna true si existe una secuencia a partir de la posicion
+    public static boolean existeSecuencia(char[] array, int posicionInicio, int max) {
+        for (int i = posicionInicio; i < max; i++) {
+            if (array[i] != ' ') {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Busca posicion de inicio de una secuencia
+    public static int buscarPosicionInicioSecuencia(char[] array, int posicion, int max) {
+        while (array[posicion] == ' ' && posicion < max - 1) {
+            posicion++;
+        }
+        return posicion;
+    }
+
+    // Busca posicion final de una secuencia
+    public static int buscarPosicionFinSecuencia(char[] array, int posicion, int max) {
+        while (array[posicion] != ' ' && posicion < max - 1) {
+            posicion++;
+        }
+        return posicion;
     }
 }
