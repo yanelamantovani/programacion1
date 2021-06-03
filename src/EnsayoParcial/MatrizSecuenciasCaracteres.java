@@ -17,6 +17,8 @@ public class MatrizSecuenciasCaracteres {
 
         cargarSecuenciasCaracteresRandomMatriz(mat, maxFilas, maxColumnas);
         imprimirMatrizCaracteres(mat, maxFilas, maxColumnas);
+        // DESARROLLAR EJERCICIO SECUENCIAS
+        ejercicioSecuencias(mat, maxFilas, maxColumnas);
 
     }
 
@@ -66,7 +68,6 @@ public class MatrizSecuenciasCaracteres {
                 array[i] = ' ';
             }
         }
-        array [maxColumnas - 2] = (char) (r.nextInt(26) + 'a'); // Evito que el anteúltimo número sea un espacio y me de error al buscar la última secuencia
     }
 
     // Imprimo matriz de caracteres
@@ -77,5 +78,44 @@ public class MatrizSecuenciasCaracteres {
             }
             System.out.println("");
         }
+    }
+
+    // DESARROLLAR EJERCICIO SECUENCIAS
+    private static void ejercicioSecuencias(char[][] matriz, int maxFilas, int maxColumnas) {
+        for (int fila = 0; fila < maxFilas; fila++) {
+            int inicio = 0;
+            while (existeSecuencia(matriz, inicio, fila, maxColumnas)) {
+                inicio = buscarPosicionInicioSecuencia(matriz, inicio, fila, maxColumnas);
+                int fin = buscarPosicionFinSecuencia(matriz, inicio, fila, maxColumnas);
+                System.out.println("fila " + fila + " inicio " + inicio + " fin " + fin);
+                inicio = fin;
+            }
+        }
+    }
+
+    // Retorna true si existe una secuencia a partir de la posicion
+    public static boolean existeSecuencia(char[][] matriz, int posicionInicio, int fila, int maxColumnas) {
+        for (int i = posicionInicio; i < maxColumnas; i++) {
+            if (matriz[fila][i] != ' ') {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Busca posicion de inicio de una secuencia
+    public static int buscarPosicionInicioSecuencia(char[][] matriz, int posicion, int fila, int maxColumnas) {
+        while (matriz[fila][posicion] == ' ' && posicion < maxColumnas - 1) {
+            posicion++;
+        }
+        return posicion;
+    }
+
+    // Busca posicion final de una secuencia
+    public static int buscarPosicionFinSecuencia(char[][] matriz, int posicion, int fila, int maxColumnas) {
+        while (matriz[fila][posicion] != ' ' && posicion < maxColumnas - 1) {
+            posicion++;
+        }
+        return posicion;
     }
 }
