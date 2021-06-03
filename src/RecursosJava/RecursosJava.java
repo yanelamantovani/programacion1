@@ -271,6 +271,7 @@ public class RecursosJava {
                 array[i] = 0;
             }
         }
+        array [MAX - 2] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR); // Evito que el anteúltimo número sea un 0 y me de error al buscar la última secuencia
     }
 
     // Calcular suma y promedio de los enteros de un array
