@@ -1,91 +1,92 @@
 /*
-Hacer un programa que dada la matriz de secuencias de enteros definida y precargada,
-permita obtener a través de métodos la posición de inicio y la posición de fin de la
-secuencia ubicada a partir de una posición entera y una fila, ambas ingresadas por el usuario.
-Finalmente, si existen imprima por pantalla ambas posiciones obtenidas.
-*/
+ * Hacer un programa que dada la matriz de secuencias de enteros definida y precargada,
+ * permita obtener a través de métodos la posición de inicio y la posición de fin de la
+ * secuencia ubicada a partir de una posición entera y una fila, ambas ingresadas por el usuario.
+ * Finalmente, si existen imprima por pantalla ambas posiciones obtenidas.
+ */
 
 package Clase8;
 
+import java.util.Random;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Random;
 
 public class Tp8_Ej10 {
-    public static final int MAXFILAS = 4;
-    public static final int MAXCOLUMNAS = 20;
+    public static final int MAXFILA = 4;
+    public static final int MAXCOLUMNA = 20;
     public static final int MAXVALOR = 9;
     public static final int MINVALOR = 1;
-    public static final double probabilityNumber = 0.4;
+    public static final double PROBABILIDAD = 0.4;
 
-    public static void main(String[] args) {
+    public static void main(String[ ] args) {
         BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
-        int [][] intMatriz = new int[MAXFILAS][MAXCOLUMNAS];
-
-        cargarMatrizSecuenciasEnteros(intMatriz);
-        imprimirMatrizEnteros(intMatriz);
-
+        int [][] matint = new int[MAXFILA][MAXCOLUMNA];
+        cargar_matriz_secuencias_int(matint);
+        imprimir_matriz_int(matint);
         try {
-            System.out.println("Ingresar una fila:");
-            int filaUsuario = Integer.valueOf(entrada.readLine());
-            System.out.println("Ingresar una posición (número entero):");
-            int posicion = Integer.valueOf(entrada.readLine());
-            int posicionInicio = buscarPosicionInicioSecuenciaMatriz(intMatriz, filaUsuario, posicion);
-            System.out.println("La secuencia inicia en la posición: " + posicionInicio);
-            int posicionFin = buscarPosicionFinSecuenciaMatriz(intMatriz, filaUsuario, posicionInicio);
-            System.out.println("Y termina en la posición: " + posicionFin);
+            System.out.println("Ingrese una fila:");
+            int fila = Integer.valueOf(entrada.readLine());
+            System.out.println("Ingrese una posicion:");
+            int pos = Integer.valueOf(entrada.readLine());
+            int posInicio = obtener_inicio_siguiente_secuencia(matint[fila], pos);
+            int posFin = obtener_fin_secuencia(matint[fila], posInicio);
+            if (posInicio < MAXCOLUMNA) {
+                System.out.println("La siguiente secuencia inicia en la fila " + fila + " posicion " + posInicio + " y finaliza en la posicion " + posFin);
+            } else {
+                System.out.println("No hay una secuencia siguiente a la posición ingresada.");
+            }
         } catch (Exception exc) {
             System.out.println(exc);
         }
     }
 
-    public static void cargarMatrizSecuenciasEnteros(int [][] intMatriz) {
-        for (int fila = 0; fila < MAXFILAS; fila++) {
-            cargarArregloSecuenciasEnteros(intMatriz[fila]);
+    public static int obtener_inicio_siguiente_secuencia(int [ ] arr, int pos) {
+        if ((arr[pos] != 0)) {
+            pos = obtener_fin_secuencia(arr, pos) + 1;
+        }
+        while ((pos < MAXCOLUMNA) && (arr[pos] == 0)) {
+            pos++;
+        }
+        return pos;
+    }
+
+    public static int obtener_fin_secuencia(int [ ] arr, int pos) {
+        while ((pos < MAXCOLUMNA) && (arr[pos] != 0)) {
+            pos++;
+        }
+        return pos - 1;
+    }
+
+    public static void cargar_matriz_secuencias_int(int [][] mat) {
+        for (int fila = 0; fila < MAXFILA; fila++) {
+            cargar_arreglo_secuencias_int(mat[fila]);
+        }
+        System.out.println(" ");
+    }
+
+    public static void cargar_arreglo_secuencias_int(int [ ] arr) {
+        Random r = new Random();
+        arr[0] = 0;
+        arr[MAXCOLUMNA - 1] = 0;
+        for (int pos = 1; pos < MAXCOLUMNA - 1; pos++) {
+            if (r.nextDouble() > PROBABILIDAD) {
+                arr[pos] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR);
+            } else {
+                arr[pos] = 0;
+            }
+        }
+    }
+
+    public static void imprimir_matriz_int(int [][] mat) {
+        for (int fila = 0; fila < MAXFILA; fila++) {
+            imprimir_arreglo_int(mat[fila]);
+        }
+    }
+
+    public static void imprimir_arreglo_int(int [] arr) {
+        for (int pos = 0; pos < MAXCOLUMNA; pos++) {
+            System.out.print("[" + arr[pos] + "]");
         }
         System.out.println("");
-    }
-
-    public static void cargarArregloSecuenciasEnteros(int [] array) {
-        Random r = new Random();
-        array[0] = 0;
-        array[MAXCOLUMNAS - 1] = 0;
-        for (int i = 1; i < MAXCOLUMNAS - 1; i++) {
-            if (r.nextDouble() > probabilityNumber) {
-                array[i] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR);
-            } else {
-                array[i] = 0;
-            }
-        }
-    }
-
-    public static void imprimirMatrizEnteros(int [][] intMatriz) {
-        for (int fila = 0; fila < MAXFILAS; fila++) {
-            for (int columna = 0; columna < MAXCOLUMNAS; columna++) {
-                System.out.print("[" + intMatriz[fila][columna] + "]");
-            }
-            System.out.println("");
-        }
-    }
-
-    public static int buscarPosicionInicioSecuenciaMatriz(int[][] intMatriz, int filaUsuario, int posicion) {
-        int posicionInicio = posicion;
-        if (intMatriz[filaUsuario][posicion] == 0) {
-            posicionInicio++;
-        } else {
-            while (intMatriz[filaUsuario][posicion] != 0) {
-                posicion--;
-            }
-            posicionInicio = posicion + 1;
-        }
-        return posicionInicio;
-    }
-
-    public static int buscarPosicionFinSecuenciaMatriz(int[][] intMatriz, int filaUsuario, int posicionInicio) {
-        while (intMatriz[filaUsuario][posicionInicio] != 0) {
-            posicionInicio++;
-        }
-        int posicionFin = posicionInicio - 1;
-        return posicionFin;
     }
 }

@@ -1,29 +1,26 @@
 /*
-Dado un arreglo DESORDENADO de numeros entre 1 y 9 de tamanio MAX que tiene los elementos sin orden,
-se pide lo siguiente:
-a) Cargar un arreglo ORDENADO de tamanio MAX (inicializado con -1).
-ORDENADO tiene posiciones del arreglo DESORDENADO de forma tal
-que permite recorrer de forma ascendente y consecutiva los valores
-pares del arreglo DESORDENADO (no se pide ordenar ORDENADO)
-ORDENADO tiene valores -1 al final cuando DESORDENADO tiene valores impares.
-
-Posible ejemplo
-DESORDENADO
-|4|6|5|8|3|8|3|5|4|7|
-ORDENADO
-|8|0|1|5|3|-1|-1|-1|-1|-1|
-
-b) Para valores (elemento y posicion) ingresados por el usuario, si elemento esta entre 1 y 9,
-es impar, y posicion es valida, insertar el elemento en DESORDENADO en la posicion indicada
-y luego actualizar el arreglo ORDENADO sin acceder a DESORDENADO.
-
-Posible ejemplo
-elemento=3
-posicion=2
-DESORDENADO
-|4|6|3|5|8|3|8|3|5|4|
-ORDENADO
-|9|0|1|6|4|-1|-1|-1|-1|-1|
+ * Dado un arreglo DESORDENADO de numeros entre 1 y 9 de tamanio MAX que tiene los elementos sin orden, se pide lo siguiente:
+ * a) Cargar un arreglo ORDENADO de tamanio MAX (inicializado con -1). ORDENADO tiene posiciones del arreglo DESORDENADO de forma tal que permite
+ * recorrer de forma ascendente y consecutiva los valores pares del arreglo DESORDENADO (no se pide ordenar ORDENADO). ORDENADO tiene valores -1
+ * al final cuando DESORDENADO tiene valores impares.
+ *
+ * Posible ejemplo
+ * DESORDENADO
+ * |4|6|5|8|3|8|3|5|4|7|
+ * ORDENADO
+ * |8|0|1|5|3|-1|-1|-1|-1|-1| (índices de los valores pares en orden ascendente)
+ *
+ * b) Para valores (elemento y posicion) ingresados por el usuario, si elemento esta entre 1 y 9, es impar, y posicion es valida, insertar el elemento
+ * en DESORDENADO en la posicion indicada y luego actualizar el arreglo ORDENADO sin acceder a DESORDENADO.
+ *
+ * Posible ejemplo
+ * elemento = 3
+ * posicion = 2
+ *
+ * DESORDENADO
+ * |4|6|3|5|8|3|8|3|5|4|
+ * ORDENADO
+ * |9|0|1|6|4|-1|-1|-1|-1|-1| (la cantidad de valores no cambia porque se agregó un impar, cambia la posición)
  */
 
 package Clase7;

@@ -1,99 +1,108 @@
 /*
-Hacer un programa que dada la matriz de secuencias de enteros definida y precargada permita encontrar por cada fila la
-posición de inicio y fin de la secuencia cuya suma de valores sea mayor.
-*/
+ * Hacer un programa que dada la matriz de secuencias de enteros definida y precargada permita encontrar por
+ * cada fila la posición de inicio y fin de la secuencia cuya suma de valores sea mayor.
+ */
 
 package Clase8;
 
 import java.util.Random;
 
 public class Tp8_Ej11 {
-    public static final int MAXFILAS = 4;
-    public static final int MAXCOLUMNAS = 20;
+    public static final int MAXFILA = 4;
+    public static final int MAXCOLUMNA = 20;
     public static final int MAXVALOR = 9;
     public static final int MINVALOR = 1;
-    public static final double probabilityNumber = 0.4;
+    public static final double PROBABILIDAD = 0.4;
 
-    public static void main(String[] args) {
-        int [][] intMatriz = new int[MAXFILAS][MAXCOLUMNAS];
-
-        cargarMatrizSecuenciasEnteros(intMatriz);
-        imprimirMatrizEnteros(intMatriz);
-        imprimirSumasSecuenciasMatriz(intMatriz);
+    public static void main(String[ ] args) {
+        int [][] matint = new int[MAXFILA][MAXCOLUMNA];
+        cargar_matriz_secuencias_int(matint);
+        imprimir_matriz_int(matint);
+        buscar_secuencias_suma_mayor_matriz(matint);
     }
 
-    public static void cargarMatrizSecuenciasEnteros(int [][] intMatriz) {
-        for (int fila = 0; fila < MAXFILAS; fila++) {
-            cargarArregloSecuenciasEnteros(intMatriz[fila]);
+    public static void buscar_secuencias_suma_mayor_matriz(int [][] mat) {
+        for (int fila = 0; fila < MAXFILA; fila++) {
+            System.out.println("Fila " + fila);
+            buscar_secuencia_suma_mayor_arreglo(mat[fila]);
+        }
+    }
+
+    public static void buscar_secuencia_suma_mayor_arreglo(int [] arr) {
+        int suma;
+        int inicio = 0;
+        int fin = -1;
+        int sumaMayor = 0;
+        int sumaMayorInicio = 0;
+        int sumaMayorFin = 0;
+        while (inicio < MAXCOLUMNA) {
+            inicio = obtener_inicio_secuencia(arr, fin + 1);
+            if (inicio < MAXCOLUMNA) {
+                fin = obtener_fin_secuencia(arr, inicio);
+                suma = obtener_suma_secuencia(arr, inicio, fin);
+                if (suma > sumaMayor) {
+                    sumaMayor = suma;
+                    sumaMayorInicio = inicio;
+                    sumaMayorFin = fin;
+                }
+            }
+        }
+        System.out.println("La secuencia cuya suma de sus valores es mayor comienza en la posicion " + sumaMayorInicio + " y termina en la posición " + sumaMayorFin);
+    }
+
+    public static int obtener_suma_secuencia(int [ ] arr, int inicio, int fin) {
+        int suma = 0;
+        while (inicio <= fin) {
+            suma += arr[inicio];
+            inicio++;
+        }
+        return suma;
+    }
+
+    public static int obtener_inicio_secuencia(int [ ] arr, int pos) {
+        while ((pos < MAXCOLUMNA) && (arr[pos] == 0)) {
+            pos++;
+        }
+        return pos;
+    }
+
+    public static int obtener_fin_secuencia(int [ ] arr, int pos) {
+        while ((pos < MAXCOLUMNA) && (arr[pos] != 0)) {
+            pos++;
+        }
+        return pos - 1;
+    }
+
+    public static void cargar_matriz_secuencias_int(int [][] mat) {
+        for (int fila = 0; fila < MAXFILA; fila++) {
+            cargar_arreglo_secuencias_int(mat[fila]);
+        }
+        System.out.println(" ");
+    }
+
+    public static void cargar_arreglo_secuencias_int(int [ ] arr) {
+        Random r = new Random();
+        arr[0] = 0;
+        arr[MAXCOLUMNA - 1] = 0;
+        for (int pos = 1; pos < MAXCOLUMNA - 1; pos++) {
+            if (r.nextDouble() > PROBABILIDAD) {
+                arr[pos] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR);
+            } else {
+                arr[pos] = 0;
+            }
+        }
+    }
+
+    public static void imprimir_matriz_int(int [][] mat) {
+        for (int fila = 0; fila < MAXFILA; fila++) {
+            imprimir_arreglo_int(mat[fila]);
+        }
+    }
+
+    public static void imprimir_arreglo_int(int [] arr) {
+        for (int pos = 0; pos < MAXCOLUMNA; pos++) {
+            System.out.print("[" + arr[pos] + "]");
         }
         System.out.println("");
-    }
-
-    public static void cargarArregloSecuenciasEnteros(int [] array) {
-        Random r = new Random();
-        array[0] = 0;
-        array[MAXCOLUMNAS - 1] = 0;
-        for (int i = 1; i < MAXCOLUMNAS - 1; i++) {
-            if (r.nextDouble() > probabilityNumber) {
-                array[i] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR);
-            } else {
-                array[i] = 0;
-            }
-        }
-        array [MAXCOLUMNAS - 2] = (r.nextInt(MAXVALOR - MINVALOR + 1) + MINVALOR); // Evito que el anteúltimo número sea un 0 y me de error al buscar la última secuencia
-    }
-
-    public static void imprimirMatrizEnteros(int [][] intMatriz) {
-        for (int fila = 0; fila < MAXFILAS; fila++) {
-            for (int columna = 0; columna < MAXCOLUMNAS; columna++) {
-                System.out.print("[" + intMatriz[fila][columna] + "]");
-            }
-            System.out.println("");
-        }
-    }
-
-    public static int buscarPosicionInicioSecuencia(int[][] intMatriz, int fila, int posicion) {
-        while (intMatriz[fila][posicion] == 0) {
-            posicion++;
-        }
-        return posicion;
-    }
-
-    public static int buscarPosicionFinSecuencia(int[][] intMatriz, int fila, int posicionInicio) {
-        while (intMatriz[fila][posicionInicio] != 0) {
-            posicionInicio++;
-        }
-        int posicionFin = posicionInicio - 1;
-        return posicionFin;
-    }
-
-    public static void imprimirSumasSecuenciasMatriz(int[][] intMatriz) {
-        for (int fila = 0; fila < MAXFILAS; fila++) {
-            int posicion = 0;
-            int sumaMayor = 0;
-            int inicio = 0;
-            int fin = 0;
-            int posicionInicio = buscarPosicionInicioSecuencia(intMatriz, fila, posicion);
-            while (posicionInicio < MAXCOLUMNAS) {
-                int posicionFin = buscarPosicionFinSecuencia(intMatriz, fila, posicionInicio);
-                int sum = 0;
-                for (int i = posicionInicio; i <= posicionFin; i++){
-                    sum += intMatriz[fila][i];
-                }
-                if (sum > sumaMayor) {
-                    sumaMayor = sum;
-                    inicio = posicionInicio;
-                    fin = posicionFin;
-                }
-                System.out.println("La suma de la secuencia de posiciones " + posicionInicio + " hasta " + posicionFin + " en la fila " + fila + " es: " + sum);
-                posicion = posicionFin + 1;
-                if (posicion < MAXCOLUMNAS - 1) {
-                    posicionInicio = buscarPosicionInicioSecuencia(intMatriz, fila, posicion);
-                } else {
-                    break;
-                }
-            }
-            System.out.println("La suma de los valores de la secuencia entre posiciones " + inicio + " y " + fin + " es la más grande.");
-        }
     }
 }

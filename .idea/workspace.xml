@@ -3,8 +3,110 @@
   <component name="ChangeListManager">
     <list default="true" id="62a7e9b2-e16f-45cb-817a-69f04339dc1d" name="Default Changelist" comment="Ensayo de parcial.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/MatrizSecuenciasCaracteres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnsayoParcial/MatrizSecuenciasCaracteres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/MatrizSecuenciasEnteros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EnsayoParcial/MatrizSecuenciasEnteros.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Clase7_Ejemplo9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej08.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej09.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej09.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase7/Tp7_Ej16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Clase8_Ejemplo9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej06.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej06.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej07.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej07.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej08.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej08.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej09.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej09.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/programacion1/Clase8/Tp8_Ej12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/EnsayoParcial/ArregloSecuenciasCaracteres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/EnsayoParcial/ArregloSecuenciasEnteros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/EnsayoParcial/Ensayo_Parcial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/EnsayoParcial/MatrizSecuenciasCaracteres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/EnsayoParcial/MatrizSecuenciasEnteros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/EnsayoParcial/Version_Funciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/FinalesPrevios/FinalRegular19_02_2020.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/programacion1/RecursosJava/RecursosJava.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Clase7_Ejemplo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase7/Tp7_Ej16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase7/Tp7_Ej16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Clase8_Ejemplo9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clase8/Tp8_Ej12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clase8/Tp8_Ej12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/ArregloSecuenciasCaracteres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/ArregloSecuenciasEnteros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/Ensayo_Parcial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/MatrizSecuenciasCaracteres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/MatrizSecuenciasEnteros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EnsayoParcial/Version_Funciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FinalesPrevios/FinalRegular19_02_2020.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecursosJava/RecursosJava.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +153,13 @@
       <recent name="Clase7" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MatrizSecuenciasCaracteres">
-    <configuration name="ArregloSecuenciasCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnsayoParcial.ArregloSecuenciasCaracteres" />
+  <component name="RunManager" selected="Application.Final">
+    <configuration name="Clase7_Ejemplo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase7.Clase7_Ejemplo9" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EnsayoParcial.*" />
+          <option name="PATTERN" value="Clase7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArregloSecuenciasEnteros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnsayoParcial.ArregloSecuenciasEnteros" />
+    <configuration name="Clase8_Ejemplo9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Clase8.Clase8_Ejemplo9" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EnsayoParcial.*" />
+          <option name="PATTERN" value="Clase8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +180,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalRegular19_02_2020" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalesPrevios.FinalRegular19_02_2020" />
+    <configuration name="Final" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Final" />
+      <module name="programacion1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recursos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursos.Recursos" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FinalesPrevios.*" />
+          <option name="PATTERN" value="Recursos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,25 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrizSecuenciasCaracteres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnsayoParcial.MatrizSecuenciasCaracteres" />
+    <configuration name="Viejo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursos.Viejo" />
       <module name="programacion1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EnsayoParcial.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MatrizSecuenciasEnteros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnsayoParcial.MatrizSecuenciasEnteros" />
-      <module name="programacion1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EnsayoParcial.*" />
+          <option name="PATTERN" value="Recursos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MatrizSecuenciasCaracteres" />
-        <item itemvalue="Application.MatrizSecuenciasEnteros" />
-        <item itemvalue="Application.ArregloSecuenciasCaracteres" />
-        <item itemvalue="Application.ArregloSecuenciasEnteros" />
-        <item itemvalue="Application.FinalRegular19_02_2020" />
+        <item itemvalue="Application.Final" />
+        <item itemvalue="Application.Viejo" />
+        <item itemvalue="Application.Clase8_Ejemplo9" />
+        <item itemvalue="Application.Recursos" />
+        <item itemvalue="Application.Clase7_Ejemplo9" />
       </list>
     </recent_temporary>
   </component>
